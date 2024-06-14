@@ -1,0 +1,330 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing Page by Code4education</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <p class="logo-w"> Bhavya Bansal </p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 order-lg-1 order-2 banner-content">
+                    <h2 class="text-uppercase position-relative">Hell0</h2>
+
+                    <h1 class="main-head">I am Bhavya Bansal</h1>
+                
+                    
+                    <p class="type-one">I am  <span class="typed-text"></span><span class="cursor blink">&nbsp;</span></p>
+                    <div class="mt-5">
+                        <a class="main-btn primary-btn" href="#contact">Hire Me</a>
+                        <a class="main-btn secondary-btn ms-4" href="Resume.pdf" download="true">Resume</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-2 order-1">
+                    <div class="top-right-img">
+                        <img decoding="async" src="images/home-right.webp" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img decoding="async" src="images/about-us.webp" class="img-fluid" alt="About Us">
+                </div>
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <h3>About me</h3>
+                    I am Bhavya Bansal . I am passionate and dedicated student currently
+                    pursuing my studies at GLA University. I am currently in my Final
+                    year, majoring in computer science. I possess a solid understanding of DSA and Web Devlopment . I am an
+                    enthusiastic learner with a passion for exploring new technologies. I
+                    am actively seeking new opportunities where I can apply my skills and
+                    contribute to innovative projects. <br>  <a  href="Resume.pdf" download="true" class="main-btn primary-btn mt-4"> Resume </a>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">
+                          Skills
+                        </p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tabs" id="skills">
+                        <ul>
+                          <li>
+                            <span>Programing Language</span> <br />
+                            Java and C++
+                          </li>
+                          
+                          <li>
+                            <span>Frontend Development</span> <br />
+                              Html,Css, JavaScript and React js
+                          </li>
+                          <li>
+                            <span>Backend Development</span> <br />
+                              Node Js,Mongo DB,Express,PassPort
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                        <ul>
+                          <li>
+                            <span>Web Development</span> <br />
+                           2 years
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                          <li>
+                            <span>B.tech </span> <br />
+                            GLA University (2021 -2025)
+                          </li>
+                          <li>
+                            <span>Intermediate</span> <br />
+                            Our Lady Of Fatima(2019-2021)
+                          </li>
+                          <li>
+                            <span>High School</span> <br />
+                            Our Lady Of Fatima (2017-2019)
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+              
+
+                </div>
+            </div>
+               
+        </div>
+    </section>
+    <!-- About section exit -->
+
+
+    <!-- portfolio Section -->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-left mb-md-5 mb-2">
+                    <h2>QUALITY WORK <br>RECENTLY DONE PROJECT</h2>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+                    
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three"
+                            aria-selected="true">Projects</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-one" role="tabpanel"
+                        aria-labelledby="pills-one-tab">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <a href="https://github.com/BhavyaBansal1/Expense_Manager">
+                                    <div class="portfolio-img">
+                                        <img decoding="async" src="https://assets.gqindia.com/photos/608c135f6e6a489a62cd254d/16:9/pass/Apps%20for%20finance%20management.jpg" class="img-fluid w-100 h-10">
+    
+                                        <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                    </div>
+                                </a>
+                
+                                <h5 class="mb-0 mt-4">Expense Manager</h5>
+                                <p>Expense Trackig web-app</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/05/14190804/e-commerce-.jpg" class="img-fluid w-100 h-10">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4">E-Commerce</h5>
+                                <p>Website </p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="https://th.bing.com/th/id/OIP.03kDvgOunDdckZWu48WU8AHaGo?w=240&h=214&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="img-fluid w-100 h-10">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4">Chat-App</h5>
+                                <p>Website </p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="portfolio-img">
+                                    <img decoding="async" src="https://th.bing.com/th/id/OIP.jBA0fAwgdtDhlcb9lBS66QHaEK?w=289&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="img-fluid w-100 h-10">
+                                    <div class="overlay"> <i class="fas fa-plus"></i></div>
+                                </div>
+                                <h5 class="mb-0 mt-4">Netflix-clone</h5>
+                                <p>HTML CSS </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio Section exit -->
+    <!-- Services section -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <h2>SERVICE OFFERS</h2>
+                    <p>I possess extensive experience in various technologies, excelling in web development,  <br>
+                </div>
+               
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3 h-100">
+                        <div>
+                            <img decoding="async" src="https://icones.pro/wp-content/uploads/2021/04/icone-robot-android-violet.png" class="h-2">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">FrontEnd Devloper </h5>
+                        <p>I am an practicing frontend developer <br> and develop many website c</p>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-sm-6 mb-4 ">
+                    <div class="card rounded-0 border-0 text-center py-5 px-3 h-100">
+                        <div>
+                            <img decoding="async" src="https://icones.pro/wp-content/uploads/2021/04/icone-robot-android-violet.png" class="h-2">
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Backend Devloper </h5>
+                        <p>I am an practicing Backend developer <br> and develop a website </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 newsletter text-center px-4">
+                    <div>
+                        <h3 class="text-black">Contact Me</h3>
+                        <p class="text-black">
+                            Please feel free to reach out to me using the contact details provided below. <br> I am more than happy to discuss any opportunities, projects, or collaborations in a professional manner.</p>
+                                    <br><br> <p class="text-black">Gmail-bhavyabansal1126@gmail.com<br> Phone-No-8923892805</p>
+                        <form class="row g-3 justify-content-center mt-4">
+                                <button type="submit" class="main-btn secondary-btn border-white mb-3">Get
+                                    Started</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <p class="logo-w"> <span></span>Bhavya Bansal </p>
+                    </div>
+                    <div class="my-4 social-icons">
+                        <h5>Get in touch</h5>
+                        <ul class="list-unstyled d-flex justify-content-center align-items-center">
+                            <li><a href="https://github.com/BhavyaBansal1?tab=repositories"><i class="fab fa-github"></i></a></li>
+                            <!-- <li><a href="https://twitter.com/___Introvert_"><i class="fab fa-twitter"></i></a></li> -->
+                            <li><a href="https://www.linkedin.com/in/bhavya-bansal-00186b248/"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="bhavyabansal1126@gmail.com"><i class="fab fa-stream"></i></a></li>
+                            <li class="leetcode"><a href="https://leetcode.com/u/Bhavyabansal1/"><i> <img src="https://cdn.icon-icons.com/icons2/2389/PNG/512/leetcode_logo_icon_145113.png"  alt=""></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<!-- Custom Js Link -->
+<script src="script.js"></script>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tabs");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tabs");
+    }
+  </script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+ 
+</html>
+
